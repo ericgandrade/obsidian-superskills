@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-superskills",
+  "owner": {
+    "name": "Eric Andrade",
+    "email": "egandrade@gmail.com"
+  },
+  "metadata": {
+    "description": "6 AI skills for Obsidian users: note building, wikilink management, frontmatter standardization, vault automation, and canvas workspaces."
+  },
+  "plugins": [
+    {
+      "name": "obsidian-superskills",
+      "source": {
+        "source": "github",
+        "repo": "ericgandrade/obsidian-superskills"
+      },
+      "description": "6 skills for Obsidian users: note building, wikilink management, frontmatter standardization, vault automation, and canvas workspaces.",
+      "author": {
+        "name": "Eric Andrade"
+      },
+      "homepage": "https://github.com/ericgandrade/obsidian-superskills",
+      "repository": "https://github.com/ericgandrade/obsidian-superskills",
+      "license": "MIT",
+      "keywords": ["obsidian", "knowledge-management", "pkm", "notes", "wikilinks", "frontmatter", "canvas"],
+      "category": "productivity",
+      "tags": ["obsidian", "knowledge-management", "pkm", "notes", "automation"]
+    }
+  ]
+}

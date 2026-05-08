@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-05-08T00:00:00Z",
+  "bundles": {
+    "all": {
+      "name": "All Obsidian Skills",
+      "description": "Complete toolkit for Obsidian knowledge management.",
+      "skills": [
+        "obsidian-markdown",
+        "obsidian-links",
+        "obsidian-frontmatter",
+        "obsidian-automation",
+        "obsidian-note-builder",
+        "obsidian-canvas"
+      ],
+      "use_cases": [
+        "Creating well-structured Obsidian notes",
+        "Managing wikilinks and knowledge graphs",
+        "Standardizing frontmatter properties",
+        "Automating vault tasks with CLI scripts",
+        "Building visual workspaces with Canvas"
+      ],
+      "target": "Obsidian users, knowledge workers, researchers"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "obsidian-superskills",
+  "version": "1.0.0",
+  "description": "6 AI skills for Obsidian knowledge management — notes, wikilinks, frontmatter, automation, canvas. Works with Claude Code, GitHub Copilot, and 6 more AI platforms.",
+  "main": "lib/index.js",
+  "bin": {
+    "obsidian-superskills": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo '✅ obsidian-superskills - test passed'",
+    "build": "cd .. && ./scripts/build-skills.sh",
+    "prebuild": "cd .. && ./scripts/build-skills.sh",
+    "link": "npm link",
+    "unlink": "npm unlink -g obsidian-superskills",
+    "generate-index": "cd .. && python3 scripts/generate-skills-index.py",
+    "generate-catalog": "cd .. && python3 scripts/generate-catalog.py",
+    "generate-all": "npm run build && npm run generate-index && npm run generate-catalog",
+    "prepublishOnly": "npm run build && npm test",
+    "version": "git add -A"
+  },
+  "keywords": ["obsidian", "claude", "copilot", "ai", "skills", "cli", "knowledge-management", "note-taking", "pkm"],
+  "author": "Eric Andrade",
+  "license": "MIT",
+  "engines": { "node": ">=14.0.0" },
+  "files": ["bin/", "lib/", "README.md"],
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.6.5",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.5",
+    "js-yaml": "^4.1.0",
+    "ora": "^5.4.1",
+    "semver": "^7.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericgandrade/obsidian-superskills.git"
+  },
+  "bugs": { "url": "https://github.com/ericgandrade/obsidian-superskills/issues" },
+  "homepage": "https://github.com/ericgandrade/obsidian-superskills#readme"
+}

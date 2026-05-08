@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-superskills",
+  "version": "1.0.0",
+  "description": "6 AI skills for Obsidian knowledge management — notes, wikilinks, frontmatter, automation, and canvas.",
+  "author": {
+    "name": "Eric Andrade",
+    "url": "https://github.com/ericgandrade"
+  },
+  "homepage": "https://github.com/ericgandrade/obsidian-superskills",
+  "repository": "https://github.com/ericgandrade/obsidian-superskills",
+  "license": "MIT",
+  "skills": "skills/",
+  "keywords": ["obsidian", "knowledge-management", "pkm", "notes", "wikilinks", "frontmatter", "canvas", "ai", "skills"]
+}
