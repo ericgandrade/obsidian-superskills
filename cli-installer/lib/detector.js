@@ -51,7 +51,7 @@ function extractGeminiVersionFromPath(binPath) {
 }
 
 /**
- * Detecta ferramentas AI CLI instaladas no sistema
+ * Detects AI CLI tools installed on the system
  * @returns {Object} { copilot: {installed, version, path}, claude: {...}, codex_cli: {...}, codex_app: {...}, ... }
  */
 function detectTools() {
@@ -481,15 +481,15 @@ function detectAdal() {
 }
 
 /**
- * Retorna mensagem de ajuda para ferramentas não instaladas
+ * Returns help message for tools that are not installed
  */
 function getInstallInstructions() {
   return `
 ╔════════════════════════════════════════════════════════════╗
-║  Nenhuma ferramenta AI CLI detectada!                      ║
+║  No AI CLI tool detected!                                  ║
 ╚════════════════════════════════════════════════════════════╝
 
-Instale ao menos uma das seguintes ferramentas:
+Install at least one of the following tools:
 
 📦 GitHub Copilot CLI:
    gh extension install github/gh-copilot
@@ -509,7 +509,7 @@ Instale ao menos uma das seguintes ferramentas:
 📦 Google Antigravity:
    https://antigravity.google/download
 
-Após instalar, execute novamente: npx claude-superskills
+After installing, run again: npx claude-superskills
   `;
 }
 
