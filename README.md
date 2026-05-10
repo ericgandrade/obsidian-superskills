@@ -1,4 +1,4 @@
-# 🧠 Obsidian Superskills v1.0.0
+# 🧠 Obsidian Superskills v1.0.1
 
 Master Obsidian knowledge management with AI-powered skills for notes, wikilinks, frontmatter, automation, and canvas. Install once across all 8 AI platforms.
 
@@ -85,12 +85,12 @@ claude --plugin-dir ./obsidian-superskills
 
 | Skill | Version | Purpose |
 |-------|---------|---------|
-| **obsidian-markdown** | v1.0.0 | Create and edit notes using Obsidian Flavored Markdown — wikilinks, callouts, embeds, block references, and all Obsidian-specific syntax |
-| **obsidian-links** | v1.0.0 | Create, validate, repair, and analyze wikilinks inside an Obsidian vault — broken link detection, orphan discovery, auto-linking, and MOC builder |
-| **obsidian-frontmatter** | v1.0.0 | Create, validate, standardize, and repair YAML frontmatter — tags, aliases, dates, custom fields — for Dataview-compatible notes |
-| **obsidian-automation** | v1.0.0 | Automate vault tasks using the CLI, shell scripts, and Local REST API — batch note creation, bulk frontmatter updates, and vault maintenance |
-| **obsidian-note-builder** | v1.0.0 | Build complete, knowledge-graph-ready notes from raw content with entity extraction, auto-wikilinks, and Zettelkasten atomicity |
-| **obsidian-canvas** | v1.0.0 | Create freeform visual workspaces using Obsidian Canvas — hub-and-spoke, Kanban, and dashboard layouts as ready-to-save `.canvas` files |
+| **obsidian-markdown** | v1.0.1 | Create and edit notes using Obsidian Flavored Markdown — wikilinks, callouts, embeds, block references, and all Obsidian-specific syntax |
+| **obsidian-links** | v1.0.1 | Create, validate, repair, and analyze wikilinks inside an Obsidian vault — broken link detection, orphan discovery, auto-linking, and MOC builder |
+| **obsidian-frontmatter** | v1.0.1 | Create, validate, standardize, and repair YAML frontmatter — tags, aliases, dates, custom fields — for Dataview-compatible notes |
+| **obsidian-automation** | v1.0.1 | Automate vault tasks using the CLI, shell scripts, and Local REST API — batch note creation, bulk frontmatter updates, and vault maintenance |
+| **obsidian-note-builder** | v1.0.1 | Build complete, knowledge-graph-ready notes from raw content with entity extraction, auto-wikilinks, and Zettelkasten atomicity |
+| **obsidian-canvas** | v1.0.1 | Create freeform visual workspaces using Obsidian Canvas — hub-and-spoke, Kanban, and dashboard layouts as ready-to-save `.canvas` files |
 
 ## 🎯 Bundles
 

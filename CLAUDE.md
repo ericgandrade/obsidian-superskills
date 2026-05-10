@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **obsidian-superskills** is a focused AI skills package for Obsidian knowledge management. Part of the Superskills family.
 
-- **npm package**: `obsidian-superskills` (v1.0.0) — `npx obsidian-superskills` — **6 skills**
+- **npm package**: `obsidian-superskills` (v1.0.1) — `npx obsidian-superskills` — **6 skills**
 - **Claude Code plugin**: `claude --plugin-dir ./obsidian-superskills` — native plugin, no npm needed
 - **GitHub**: `https://github.com/ericgandrade/obsidian-superskills`
 - **Part of**: [claude-superskills](https://github.com/ericgandrade/claude-superskills) family
@@ -25,7 +25,7 @@ skills/
 
 ## Version Management
 
-Current version: **v1.0.0**
+Current version: **v1.0.1**
 
 Files to keep in sync:
 - `cli-installer/package.json` — source of truth
