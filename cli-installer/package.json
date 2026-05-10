@@ -1,6 +1,6 @@
 {
   "name": "obsidian-superskills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "6 AI skills for Obsidian knowledge management — notes, wikilinks, frontmatter, automation, canvas. Works with Claude Code, GitHub Copilot, and 6 more AI platforms.",
   "main": "lib/index.js",
   "bin": {
@@ -18,11 +18,27 @@
     "prepublishOnly": "npm run build && npm test",
     "version": "git add -A"
   },
-  "keywords": ["obsidian", "claude", "copilot", "ai", "skills", "cli", "knowledge-management", "note-taking", "pkm"],
+  "keywords": [
+    "obsidian",
+    "claude",
+    "copilot",
+    "ai",
+    "skills",
+    "cli",
+    "knowledge-management",
+    "note-taking",
+    "pkm"
+  ],
   "author": "Eric Andrade",
   "license": "MIT",
-  "engines": { "node": ">=14.0.0" },
-  "files": ["bin/", "lib/", "README.md"],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ],
   "dependencies": {
     "adm-zip": "^0.5.16",
     "axios": "^1.6.5",
@@ -38,6 +54,8 @@
     "type": "git",
     "url": "git+https://github.com/ericgandrade/obsidian-superskills.git"
   },
-  "bugs": { "url": "https://github.com/ericgandrade/obsidian-superskills/issues" },
+  "bugs": {
+    "url": "https://github.com/ericgandrade/obsidian-superskills/issues"
+  },
   "homepage": "https://github.com/ericgandrade/obsidian-superskills#readme"
 }
