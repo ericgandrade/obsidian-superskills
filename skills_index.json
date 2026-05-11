@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-05-10T22:07:02.198211Z",
+  "skills": [
+    {
+      "name": "obsidian-automation",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user wants to automate repetitive Obsidian tasks using the Obsidian CLI, shell commands, or scripted workflows. Use when the user needs to batch-create notes, bulk-update frontmatter, run vault maintenance tasks, open specific notes in Obsidian, navigate the vault programmatically, or integrate Obsidian with external tools.",
+      "category": "Tools Needed",
+      "tags": [
+        "obsidian",
+        "automation",
+        "cli",
+        "scripting",
+        "shell",
+        "batch-processing"
+      ],
+      "risk": "Medium (file system operations)",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    },
+    {
+      "name": "obsidian-canvas",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user needs to create or edit an Obsidian Canvas \u2014 a freeform visual workspace that arranges notes, cards, links, images, and web content on an infinite canvas. Use when the user wants to map ideas spatially, build a knowledge dashboard, sketch a concept cluster, or create a visual workspace linking multiple Obsidian notes.",
+      "category": "Obsidian / Knowledge Management",
+      "tags": [
+        "obsidian",
+        "canvas",
+        "visual-workspace",
+        "knowledge-map",
+        "dashboard"
+      ],
+      "risk": "Low",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    },
+    {
+      "name": "obsidian-frontmatter",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user needs to create, validate, standardize, or repair YAML frontmatter properties in Obsidian notes. Use when the user wants to add or update tags, aliases, dates, custom properties, or any metadata fields in the Properties panel of an Obsidian note.",
+      "category": "Obsidian / Knowledge Management",
+      "tags": [
+        "obsidian",
+        "frontmatter",
+        "yaml",
+        "properties",
+        "metadata",
+        "dataview"
+      ],
+      "risk": "Low",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    },
+    {
+      "name": "obsidian-links",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user needs to create, validate, repair, or analyze wikilinks inside an Obsidian vault. Use when the user wants to add links between notes, find broken links, rename a linked note, discover orphaned notes, or build a bidirectional linking structure in Obsidian.",
+      "category": "Obsidian / Knowledge Management",
+      "tags": [
+        "obsidian",
+        "wikilinks",
+        "knowledge-graph",
+        "backlinks",
+        "MOC"
+      ],
+      "risk": "Low",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    },
+    {
+      "name": "obsidian-markdown",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user is working with Obsidian notes and needs to create or edit files using Obsidian Flavored Markdown syntax. Use when the user mentions wikilinks, callouts, embeds, frontmatter properties, tags, block references, or any Obsidian-specific syntax that extends standard Markdown.",
+      "category": "Obsidian",
+      "tags": [
+        "obsidian",
+        "markdown",
+        "wikilinks",
+        "callouts",
+        "frontmatter",
+        "embeds",
+        "vault"
+      ],
+      "risk": "Low",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    },
+    {
+      "name": "obsidian-note-builder",
+      "version": "1.0.0",
+      "description": "This skill should be used when the user wants to create a well-structured, richly linked Obsidian note from raw content, ideas, or instructions. Use when the user needs entity extraction, automatic wikilink insertion, Zettelkasten-style atomic note formatting, or building a note that integrates seamlessly into an existing vault's knowledge graph.",
+      "category": "Obsidian / Knowledge Management",
+      "tags": [
+        "obsidian",
+        "note-building",
+        "zettelkasten",
+        "knowledge-graph",
+        "entity-extraction"
+      ],
+      "risk": "Low",
+      "platforms": [
+        "All 8"
+      ],
+      "triggers": []
+    }
+  ]
+}
